@@ -1,0 +1,36 @@
+# Hand Gesture AI - Requirements
+# Python 3.10-3.12 REQUIRED (MediaPipe does NOT support Python 3.13+)
+#
+# RECOMMENDED INSTALL (avoids pip backtracking on MediaPipe JAX deps):
+#
+#   Step 1:  pip install opencv-python==4.10.0.84 numpy==1.26.4 scikit-learn==1.5.2 pandas==2.2.3 joblib==1.4.2 customtkinter==5.2.2 matplotlib==3.9.2 pillow==10.4.0 pyautogui==0.9.54
+#   Step 2:  pip install mediapipe==0.10.14
+#
+#   OR at once (slower due to resolver):
+#   pip install -r requirements.txt
+
+# Core computer vision
+opencv-python==4.10.0.84
+
+# Hand tracking (install AFTER other packages for faster resolution)
+mediapipe==0.10.14
+
+# Numerical computing
+numpy==1.26.4
+
+# Machine learning
+scikit-learn==1.5.2
+joblib==1.4.2
+
+# Mouse automation
+pyautogui==0.9.54
+
+# Data management
+pandas==2.2.3
+
+# GUI
+customtkinter==5.2.2
+pillow==10.4.0
+
+# Visualisation
+matplotlib==3.9.2
